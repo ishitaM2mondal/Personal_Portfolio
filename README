@@ -1,0 +1,62 @@
+# 🌐 Personal Portfolio Website  
+
+My **personal portfolio** website — a reflection of who I am, what I create, and how I grow as a **frontend developer**. 
+
+---
+
+## 📌 Features  
+
+- 🏠 **Homepage (portfolio/)** – Clean landing page with navigation links  
+- 👩‍💻 **About Page (about/)** – Introduction about me, skills, and career interests  
+- 📂 **Projects Page (allproject/)** – Highlights my frontend projects and toher works
+- 📞 **Contact Page (contact/)** – Social links (GitHub, LinkedIn, Email, etc.)  
+- 🎨 **Responsive Design** – Dark theme with gradients, animations, and smooth UI  
+
+---
+
+## 📂 Folder Structure  
+
+```
+PORTFOLIO/
+│── about/ # About Me page (HTML, CSS, JS)
+│── allproject/ # Projects showcase page
+│── contact/ # Contact page with social links
+│── portfolio/ # Homepage (landing page)
+│── README.md # Documentation
+```
+
+---
+
+## 🛠️ Technologies Used  
+
+- **HTML5** → Structure & Semantics  
+- **CSS3** → Styling, Flexbox, Grid, Animations, Responsive Layouts  
+- **JavaScript (Vanilla JS)** → DOM Manipulation, LocalStorage  
+- **Font Awesome** → Icons for UI & social links  
+
+---
+
+## 🚀 How to Run  
+
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/ishitaM2mondal/Personal_Portfolio.git
+2. Navigate to the portfolio/ folder.
+3. Open index.html in your browser.
+4. Use the navbar to explore different sections and projects.
+
+## 🎯Learning Outcomes
+
+- Gained practical experience in multi-page website development
+
+- Strengthened frontend skills in HTML, CSS, and JavaScript
+
+- Learned localStorage implementation for data persistence
+
+- Built reusable, responsive UI components with modern layouts
+
+- Improved project structuring and documentation for GitHub
+
+---
+
+
