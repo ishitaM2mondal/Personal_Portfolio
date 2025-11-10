@@ -1,18 +1,19 @@
-# 🌐 Personal Portfolio Website  
+### 🌐 Personal Portfolio Website
 
-My **personal portfolio** website — a reflection of who I am, what I create, and how I grow as a **frontend developer**. 
+A personal portfolio website that reflects who I am, what I create, and how I grow as a frontend developer.
+Showcases my projects, skills, and contact details in a responsive, elegant interface.
 
----
+## 📌 Features
 
-## 📌 Features  
+🏠 Homepage (portfolio/) – Clean landing page with smooth navigation
 
-- 🏠 **Homepage (portfolio/)** – Clean landing page with navigation links  
-- 👩‍💻 **About Page (about/)** – Introduction about me, skills, and career interests  
-- 📂 **Projects Page (allproject/)** – Highlights my frontend projects and toher works
-- 📞 **Contact Page (contact/)** – Social links (GitHub, LinkedIn, Email, etc.)  
-- 🎨 **Responsive Design** – Dark theme with gradients, animations, and smooth UI  
+👩‍💻 About Page (about/) – Overview of my background, skills, and career interests
 
----
+📂 Projects Page (allproject/) – Highlights of my frontend and other creative works
+
+📞 Contact Page (contact/) – Social links to GitHub, LinkedIn, and Email
+
+🎨 Responsive Design – Dark theme with gradients, animations, and modern UI
 
 ## 📂 Folder Structure  
 
@@ -24,7 +25,6 @@ PORTFOLIO/
 │── portfolio/ # Homepage (landing page)
 │── README.md # Documentation
 ```
-
 ---
 
 ## 🛠️ Technologies Used  
@@ -38,12 +38,27 @@ PORTFOLIO/
 
 ## 🚀 How to Run  
 
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/ishitaM2mondal/Personal_Portfolio.git
-2. Navigate to the portfolio/ folder.
-3. Open index.html in your browser.
-4. Use the navbar to explore different sections and projects.
+1.Clone this repository:
+
+git clone https://github.com/ishitaM2mondal/Personal_Portfolio.git
+
+
+2.Navigate to the main folder:
+
+cd Personal_Portfolio
+
+
+3.Open the Homepage:
+
+Go to the portfolio/ folder
+
+Double-click index.html to open it in your browser
+
+4.Explore the Site:
+
+Use the navbar to navigate between Home, About, Projects, and Contact sections.
+
+---
 
 ## 🎯Learning Outcomes
 
