@@ -16,6 +16,19 @@ document.querySelectorAll("header nav a").forEach(link => {
   });
 });
 
+// ===== Hamburger Menu Toggle =====
+document.addEventListener("DOMContentLoaded", () => {
+  const hamburger = document.getElementById("hamburger");
+  const navMenu = document.getElementById("nav-menu");
+
+  if (hamburger && navMenu) {
+    hamburger.addEventListener("click", () => {
+      navMenu.classList.toggle("show");
+    });
+  }
+});
+
+
 // ===== Active Nav Highlight on Scroll =====
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll("header nav a");

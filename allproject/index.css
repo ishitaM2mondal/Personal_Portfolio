@@ -1,8 +1,80 @@
-/* Import same theme */
+/* Import shared theme */
 @import url("../portfolio/index.css");
 
+/* ===== Navbar ===== */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+  background: #111;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
 
-/* Override / Add project page styles */
+.logo {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #ff7eb3;
+}
+
+/* ===== Hamburger Menu ===== */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+/* Mobile Navbar */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  nav {
+    position: absolute;
+    top: 70px;
+    right: 5%;
+    background-color: rgba(15, 15, 26, 0.95);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    border-radius: 8px;
+    display: none;
+    width: 180px;
+  }
+
+  nav.show {
+    display: flex;
+  }
+
+  nav a {
+    margin: 0.8rem 0;
+  }
+}
+
+/* ===== Projects Section ===== */
 .projects {
   padding: 8rem 5% 4rem;
   text-align: center;
@@ -22,17 +94,16 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 5rem;
+  gap: 2rem;
 }
 
 .card {
   background: #1a1a2e;
   border-radius: 15px;
-  padding: 2rem ;
+  padding: 2rem;
   text-align: left;
   box-shadow: 0 0 15px rgba(255, 0, 200, 0.2);
   transition: transform 0.3s, box-shadow 0.3s;
-  margin-top: 2rem;
 }
 
 .card:hover {
@@ -62,4 +133,46 @@
 
 .card .btn:hover {
   transform: scale(1.05);
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  color: #888;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+}
+
+/* ===== Responsive Adjustments ===== */
+@media (max-width: 768px) {
+  .projects {
+    padding: 6rem 2% 3rem;
+  }
+
+  .projects h1 {
+    font-size: 2rem;
+  }
+
+  .projects .subtitle {
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+
+  .card h3 {
+    font-size: 1.1rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
 }

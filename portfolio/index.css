@@ -33,6 +33,13 @@ header .logo {
   color: white;
 }
 
+.hamburger{
+  display: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
 nav a {
   color: #bbb;
   text-decoration: none;
@@ -120,4 +127,125 @@ footer {
   padding: 1rem;
   color: #777;
   margin-top: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header {
+    padding: 1rem 2%;
+  }
+
+  header .logo {
+    font-size: 1.5rem;
+  }
+
+ 
+  
+  .hamburger {
+    display: block;
+  }
+
+  nav {
+    position: absolute;
+    top: 70px;
+    right: 5%;
+    background-color: rgba(15, 15, 26, 0.95);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 180px;
+  }
+
+  nav a {
+    margin: 0.8rem 0;
+    font-size: 1rem;
+  }
+
+  nav.show {
+    display: flex;
+  }
+
+
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 6rem 2% 4rem;
+    min-height: auto;
+  }
+
+  .hero-text {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-text h3 {
+    font-size: 1.2rem;
+  }
+
+  .hero-text p {
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    padding: 0.7rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .hero-img .circle {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 0.8rem 2%;
+  }
+
+  header .logo {
+    font-size: 1.3rem;
+  }
+
+  nav-menu a {
+    margin-left: 0.8rem;
+    font-size: 0.85rem;
+  }
+
+  .hero {
+    padding: 5rem 2% 3rem;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text h3 {
+    font-size: 1.1rem;
+  }
+
+  .hero-text p {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.85rem;
+  }
+
+  .hero-img .circle {
+    width: 150px;
+    height: 150px;
+  }
+
+  footer {
+    padding: 0.8rem;
+    font-size: 0.85rem;
+  }
 }
